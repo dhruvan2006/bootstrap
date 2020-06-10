@@ -1,0 +1,68 @@
+.dropdown-item.active {
+  background-color: #E5C353;
+}
+.navbar {
+  background-color: #7952B3;
+  color: #7952B3;
+  font-size: 1.25em;
+  box-shadow: 0 3px 5px #999999;
+}
+#downloadBtn {
+  border-color: #E5C353;
+  color: #E5C353;
+}
+#downloadBtn:hover {
+  background-color: #E5C353;
+  color: #000;
+  transition: background-color 0.5s, color 0.5s;
+}
+#downloadBtn:active {
+  outline: 1px solid #E5C353;
+  transition: box-shadow, 0.3s;
+}
+
+/* Sign-In */
+#signinDropdown {
+  color: #fff;
+  background-color: #7952B3;
+  border: 0;
+  outline: 0;
+  box-shadow: 0;
+  margin-top: 1em;
+  box-shadow: 3px 3px 5px #999999;
+}
+#signinForm {
+  width: auto;
+  text-align: center;
+}
+#signinBtn {
+  width: 20em;
+  height: 3em;
+  margin: 1em 2em;
+}
+#inputEmail, #inputPassword {
+  width: 19em;
+  margin-bottom: 0!important;
+  font-size: 1.3em;
+  padding: 0.5em 0.5em 0;
+}
+#passwordContainer {
+  margin-bottom: 1em!important;
+}
+#emailContainer, #passwordContainer {
+  width: 29em;
+  background-color: #fff;
+  padding: 0.2em 0.2em 0.5em 1em;
+  margin: 0.5em;
+  border-radius: 0.25em;
+}
+#emailContainer:focus, #passwordContainer:focus {
+  box-shadow: 0;
+  outline: 0;
+}
+.underline {
+  width: 24em;
+}
+.checkbox {
+  font-size: 1.25em!important;
+}

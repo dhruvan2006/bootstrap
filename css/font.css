@@ -1,0 +1,7 @@
+@font-face {
+  font-family: Nexa;
+  src: url('../fonts/nexa-light.otf');
+}
+* {
+  font-family: Nexa;
+}
